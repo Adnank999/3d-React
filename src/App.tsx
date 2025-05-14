@@ -8,7 +8,7 @@ function App() {
  
 
   return (
-   <div id='scroll-container' style={{ width: '100vw', height: '1000vh', overflowY: 'scroll' }}>
+   <div id='scroll-container' style={{ width: '100vw', height: '500vh', overflowY: 'scroll' }}>
       <SceneCanvas modelUrl="/spiGltf/scene.gltf" />
     </div>
   )

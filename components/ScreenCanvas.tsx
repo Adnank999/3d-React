@@ -11,7 +11,7 @@ interface SceneCanvasProps {
 const SceneCanvas: React.FC<SceneCanvasProps> = ({ modelUrl }) => {
   return (
     <Canvas
-      camera={{ position: [60, 2, 5], fov: 45 }}
+      // camera={{ position: [10, 2, 5], fov: 45 }}
       style={{ background: '#1a1a1a' }} // Optional: dark background
     >
     <Suspense fallback={null}>
